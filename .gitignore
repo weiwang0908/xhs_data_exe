@@ -1,0 +1,36 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.venv/
+venv/
+env/
+ENV/
+
+# ---- 打包产物 ----
+dist/
+build/
+*.exe
+
+# ---- 运行时数据（数据库/日志/备份）----
+*.db
+*.db-journal
+*.sqlite
+*.sqlite3
+*.log
+*.old
+
+# ---- 本地配置与密钥 ----
+.env
+*.local
+cookie*.json
+
+# ---- 工作区数据 ----
+.workbuddy/
+
+# ---- IDE ----
+.vscode/
+.idea/
+*.swp
+.DS_Store
